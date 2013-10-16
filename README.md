@@ -9,4 +9,4 @@ See the [License](LICENSE) file, but this code is provided under the MIT license
 
 # Contributing
 
-See [Contributing](CONTRIBUTING).
+See [Contributing](CONTRIBUTING.md).
