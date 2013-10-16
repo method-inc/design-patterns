@@ -2,20 +2,20 @@
 
 ## Creational
 
-+ Factory
++ [Factory](factory/README.md)
 
 ## Structural
 
-+ Flyweight
-+ Decorator
-+ Facade
++ [Flyweight](flyweight/README.md)
++ [Decorator](decorator/README.md)
++ [Facade](facade/README.md)
 
 ## Behavioral
 
-+ Mediator
-+ Strategy
-+ Chain of Responsibility
-+ Specification
-+ Memento
-+ Command
++ [Mediator](mediator/README.md)
++ [Strategy](strategy/README.md)
++ [Chain of Responsibility](chain-of-responsibility/README.md)
++ [Specification](specification/README.md)
++ [Memento](memento/README.md)
++ [Command](command/README.md)
 
