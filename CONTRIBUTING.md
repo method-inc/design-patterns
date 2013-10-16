@@ -1,0 +1,1 @@
+Feel free to fork and submit a pull request for review. There are no tests or anything to run, I only ask that you submit a quality pattern. You can additionally write a new language example for an already given pattern.
