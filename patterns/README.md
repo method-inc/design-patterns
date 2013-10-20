@@ -1,14 +1,9 @@
 # Patterns
 
-## Creational
-
-+ [Factory](factory/README.md)
-
 ## Structural
 
 + [Flyweight](flyweight/README.md)
 + [Decorator](decorator/README.md)
-+ [Facade](facade/README.md)
 
 ## Behavioral
 
