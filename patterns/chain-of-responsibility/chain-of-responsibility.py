@@ -1,7 +1,9 @@
+# this is for this example and is not a participant in Chain of Responsibility
 class Event:
   def __init__( self, name ):
     self.name = name
 
+# This is the Handler interface and base implementation
 class Handler:
   # pass in the successor. if you do not pass something in
   # it would be assumed to be the end of the Chain
@@ -26,19 +28,28 @@ class Handler:
     elif hasattr( self, 'HandleDefault' ):
       self.HandleDefault( event )  
 
+# Concrete Handler
 class EndOfChain( Handler ):
   def Handle_close( self, event ):
     print 'EndOfChain: ' + event.name
   def HandleDefault( self, event ):
     print 'Default: ' + event.name
         
+# Concrete Handler
 class MiddleOfChain( Handler ):
   def Handle_do( self, event ):
     print 'MiddleOfChain: ' + event.name
 
+# Concrete Handler
 class FirstOfChain( Handler ):
   def Handle_action( self, event ):
     print 'FirstChain: ' + event.name
+
+
+#
+# Client code following for constructing the chain
+# and sample executions of the chain
+#
 
 end = EndOfChain()
 middle = MiddleOfChain(end)
