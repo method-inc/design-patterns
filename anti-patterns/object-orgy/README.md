@@ -14,6 +14,7 @@ Since encapsulation has been violated all the benefits of encapsulation disappea
 
 + Use appropriate language features to enforce encapsulation like accessor methods
 + Use features like reflection with caution
++ [Chain of Responsibility](../../patterns/chain-of-responsibility/README.md) pattern
 + Discipline - If you find it easier to just make a member accessible consider the long term ramifications on code maintainability.
 
 # How to fix this anti-pattern

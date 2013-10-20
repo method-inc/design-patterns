@@ -1,6 +1,6 @@
 # Chain of Responsibility
 
-The Chain of Responsibility pattern focuses on decoupling the sender of a request to its receiver by giving more than one object a chance to chandle the request. It does this by creating a chain of handlers to process a request. Each handler will determine if it needs to process the request and then hand it off to the next link in the chain through a successor property. The client code then only needs to track the start of the chain, and the chain manages itself.
+The Chain of Responsibility pattern focuses on decoupling the sender of a request to its receiver by giving more than one object a chance to handle the request. It does this by creating a chain of handlers to process a request. Each handler will determine if it needs to process the request and then hand it off to the next link in the chain through a successor property. The client code then only needs to track the start of the chain, and the chain manages itself.
 
 ## Example
 
