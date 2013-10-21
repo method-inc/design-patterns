@@ -32,7 +32,7 @@ There are 5 participants in this pattern:
 + When you want to queue and execute requests at different times
 + Support undo operations
 + Support logging changes to the system
-+ Can be used as a building block for transactions (i.e. run multiple operations but if one fails you can rollback the entire set of operations). This is also useful for just composing objects together.
++ Can be used as a building block for transactions (i.e. run multiple operations but if one fails you can rollback the entire set of operations). This is also useful for just composing operations together.
 
 ## Example Implementation
 
