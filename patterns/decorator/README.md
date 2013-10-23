@@ -32,5 +32,5 @@ There are 4 participants in this pattern:
 
 ## Example Implementation
 
-See [decorator-dynamic.rb](decorator-dynamic.rb) for a dynamic language implementation. See a great post on these topics [here](http://robots.thoughtbot.com/post/14825364877/evaluating-alternative-decorator-implementations-in)
-See [decorator-static.cs](decorator-static.cs) for a statically typed language implementation
++ See [decorator-dynamic.rb](decorator-dynamic.rb) for a dynamic language implementation. See a great post on these topics [here](http://robots.thoughtbot.com/post/14825364877/evaluating-alternative-decorator-implementations-in)
++ See [decorator-static.cs](decorator-static.cs) for a statically typed language implementation
