@@ -14,3 +14,5 @@
 + [Memento](memento/README.md)
 + [Command](command/README.md)
 
+_Note: All Participants images are from Gang of Four unless otherwise noted_
+
