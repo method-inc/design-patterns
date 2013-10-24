@@ -76,3 +76,4 @@ nosetests.xml
 .DS_Store
 
 *.exe
+*.class
