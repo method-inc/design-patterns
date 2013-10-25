@@ -1,3 +1,6 @@
+// For a better JavaScript specific way see 
+// http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailflyweight
+
 // source: http://www.dofactory.com/javascript-flyweight-pattern.aspx
 // Flyweight
 function Flyweight (make, model, processor) {
