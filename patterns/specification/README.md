@@ -20,7 +20,7 @@ There are 2 participants in this pattern:
 ## Why should I use it?
 
 + Ensures that business rules are self contained, small, composable, and testable
-+ Makes sure that [God Objects](../../anti-pattern/god-object/README.md) are not created
++ Makes sure that [God Objects](../../anti-patterns/god-object/README.md) are not created
 
 ## When should I use it?
 
